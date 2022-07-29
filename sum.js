@@ -1,1 +1,3 @@
-export const sum = (a, b) => a + b;
+module.export = function sum(a, b) {
+  a + b;
+};
