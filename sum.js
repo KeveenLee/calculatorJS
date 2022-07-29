@@ -1,3 +1,3 @@
-module.export = function sum(a, b) {
-  a + b;
+module.exports = sum = (a, b) => {
+  return a + b;
 };
