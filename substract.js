@@ -1,4 +1,6 @@
 module.exports = substract = (a, b) => {
-  if (a < b) return 0;
+  if (b > a) {
+    throw new Error("Negative result not allowed");
+  }
   return a - b;
 };
